@@ -49,7 +49,7 @@ export default class App extends React.Component {
                     <div className={`type type-${item.rare}`}>Редкий вид</div>
                     <div className="info">
                         <div className="item big">
-                            <span>Лосось</span>
+                            <span>{item.title}</span>
                             <span />
                         </div>
                         <div className="item">
